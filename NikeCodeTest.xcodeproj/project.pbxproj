@@ -13,8 +13,23 @@
 		F553F49E24D7B723009FB74B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F553F49C24D7B723009FB74B /* Main.storyboard */; };
 		F553F4A024D7B729009FB74B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F553F49F24D7B729009FB74B /* Assets.xcassets */; };
 		F553F4A324D7B729009FB74B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F553F4A124D7B729009FB74B /* LaunchScreen.storyboard */; };
-		F553F4AE24D7B729009FB74B /* NikeCodeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F553F4AD24D7B729009FB74B /* NikeCodeTestTests.swift */; };
-		F553F4B924D7B729009FB74B /* NikeCodeTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F553F4B824D7B729009FB74B /* NikeCodeTestUITests.swift */; };
+		F553F4CA24D7B87A009FB74B /* AlbumDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F553F4C624D7B87A009FB74B /* AlbumDetailViewController.swift */; };
+		F553F4CB24D7B87A009FB74B /* AlbumDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F553F4C624D7B87A009FB74B /* AlbumDetailViewController.swift */; };
+		F553F4CC24D7B87A009FB74B /* AlbumDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F553F4C624D7B87A009FB74B /* AlbumDetailViewController.swift */; };
+		F553F4CD24D7B87A009FB74B /* AlbumsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F553F4C724D7B87A009FB74B /* AlbumsTableViewController.swift */; };
+		F553F4CE24D7B87A009FB74B /* AlbumsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F553F4C724D7B87A009FB74B /* AlbumsTableViewController.swift */; };
+		F553F4CF24D7B87A009FB74B /* AlbumsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F553F4C724D7B87A009FB74B /* AlbumsTableViewController.swift */; };
+		F553F4D024D7B87A009FB74B /* FetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F553F4C824D7B87A009FB74B /* FetchData.swift */; };
+		F553F4D124D7B87A009FB74B /* FetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F553F4C824D7B87A009FB74B /* FetchData.swift */; };
+		F553F4D224D7B87A009FB74B /* FetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F553F4C824D7B87A009FB74B /* FetchData.swift */; };
+		F553F4D324D7B87A009FB74B /* ViewExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F553F4C924D7B87A009FB74B /* ViewExtentions.swift */; };
+		F553F4D424D7B87A009FB74B /* ViewExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F553F4C924D7B87A009FB74B /* ViewExtentions.swift */; };
+		F553F4D524D7B87A009FB74B /* ViewExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F553F4C924D7B87A009FB74B /* ViewExtentions.swift */; };
+		F553F4DB24D7B8E2009FB74B /* AlbumDetailViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F553F4D624D7B8E2009FB74B /* AlbumDetailViewControllerTest.swift */; };
+		F553F4DE24D7B8E2009FB74B /* FetchDataTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F553F4D724D7B8E2009FB74B /* FetchDataTest.swift */; };
+		F553F4E124D7B8E2009FB74B /* AlbumsTableViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F553F4D824D7B8E2009FB74B /* AlbumsTableViewControllerTest.swift */; };
+		F553F4E424D7B8E2009FB74B /* ViewExtentionsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F553F4D924D7B8E2009FB74B /* ViewExtentionsTest.swift */; };
+		F553F4E924D7B949009FB74B /* NikeSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F553F4E624D7B949009FB74B /* NikeSampleUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +59,18 @@
 		F553F4A224D7B729009FB74B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F553F4A424D7B729009FB74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F553F4A924D7B729009FB74B /* NikeCodeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikeCodeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F553F4AD24D7B729009FB74B /* NikeCodeTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeCodeTestTests.swift; sourceTree = "<group>"; };
 		F553F4AF24D7B729009FB74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F553F4B424D7B729009FB74B /* NikeCodeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikeCodeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F553F4B824D7B729009FB74B /* NikeCodeTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeCodeTestUITests.swift; sourceTree = "<group>"; };
 		F553F4BA24D7B729009FB74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F553F4C624D7B87A009FB74B /* AlbumDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumDetailViewController.swift; sourceTree = "<group>"; };
+		F553F4C724D7B87A009FB74B /* AlbumsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumsTableViewController.swift; sourceTree = "<group>"; };
+		F553F4C824D7B87A009FB74B /* FetchData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchData.swift; sourceTree = "<group>"; };
+		F553F4C924D7B87A009FB74B /* ViewExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtentions.swift; sourceTree = "<group>"; };
+		F553F4D624D7B8E2009FB74B /* AlbumDetailViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumDetailViewControllerTest.swift; sourceTree = "<group>"; };
+		F553F4D724D7B8E2009FB74B /* FetchDataTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchDataTest.swift; sourceTree = "<group>"; };
+		F553F4D824D7B8E2009FB74B /* AlbumsTableViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumsTableViewControllerTest.swift; sourceTree = "<group>"; };
+		F553F4D924D7B8E2009FB74B /* ViewExtentionsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtentionsTest.swift; sourceTree = "<group>"; };
+		F553F4E624D7B949009FB74B /* NikeSampleUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NikeSampleUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +123,10 @@
 			children = (
 				F553F49624D7B723009FB74B /* AppDelegate.swift */,
 				F553F49824D7B723009FB74B /* SceneDelegate.swift */,
+				F553F4C824D7B87A009FB74B /* FetchData.swift */,
+				F553F4C924D7B87A009FB74B /* ViewExtentions.swift */,
+				F553F4C724D7B87A009FB74B /* AlbumsTableViewController.swift */,
+				F553F4C624D7B87A009FB74B /* AlbumDetailViewController.swift */,
 				F553F49A24D7B723009FB74B /* ViewController.swift */,
 				F553F49C24D7B723009FB74B /* Main.storyboard */,
 				F553F49F24D7B729009FB74B /* Assets.xcassets */,
@@ -113,7 +139,10 @@
 		F553F4AC24D7B729009FB74B /* NikeCodeTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				F553F4AD24D7B729009FB74B /* NikeCodeTestTests.swift */,
+				F553F4D624D7B8E2009FB74B /* AlbumDetailViewControllerTest.swift */,
+				F553F4D824D7B8E2009FB74B /* AlbumsTableViewControllerTest.swift */,
+				F553F4D724D7B8E2009FB74B /* FetchDataTest.swift */,
+				F553F4D924D7B8E2009FB74B /* ViewExtentionsTest.swift */,
 				F553F4AF24D7B729009FB74B /* Info.plist */,
 			);
 			path = NikeCodeTestTests;
@@ -122,7 +151,7 @@
 		F553F4B724D7B729009FB74B /* NikeCodeTestUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F553F4B824D7B729009FB74B /* NikeCodeTestUITests.swift */,
+				F553F4E624D7B949009FB74B /* NikeSampleUITests.swift */,
 				F553F4BA24D7B729009FB74B /* Info.plist */,
 			);
 			path = NikeCodeTestUITests;
@@ -260,8 +289,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F553F49B24D7B723009FB74B /* ViewController.swift in Sources */,
+				F553F4CA24D7B87A009FB74B /* AlbumDetailViewController.swift in Sources */,
 				F553F49724D7B723009FB74B /* AppDelegate.swift in Sources */,
 				F553F49924D7B723009FB74B /* SceneDelegate.swift in Sources */,
+				F553F4D024D7B87A009FB74B /* FetchData.swift in Sources */,
+				F553F4D324D7B87A009FB74B /* ViewExtentions.swift in Sources */,
+				F553F4CD24D7B87A009FB74B /* AlbumsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +302,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F553F4AE24D7B729009FB74B /* NikeCodeTestTests.swift in Sources */,
+				F553F4E124D7B8E2009FB74B /* AlbumsTableViewControllerTest.swift in Sources */,
+				F553F4D424D7B87A009FB74B /* ViewExtentions.swift in Sources */,
+				F553F4DE24D7B8E2009FB74B /* FetchDataTest.swift in Sources */,
+				F553F4CE24D7B87A009FB74B /* AlbumsTableViewController.swift in Sources */,
+				F553F4DB24D7B8E2009FB74B /* AlbumDetailViewControllerTest.swift in Sources */,
+				F553F4D124D7B87A009FB74B /* FetchData.swift in Sources */,
+				F553F4CB24D7B87A009FB74B /* AlbumDetailViewController.swift in Sources */,
+				F553F4E424D7B8E2009FB74B /* ViewExtentionsTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +317,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F553F4B924D7B729009FB74B /* NikeCodeTestUITests.swift in Sources */,
+				F553F4D524D7B87A009FB74B /* ViewExtentions.swift in Sources */,
+				F553F4CF24D7B87A009FB74B /* AlbumsTableViewController.swift in Sources */,
+				F553F4E924D7B949009FB74B /* NikeSampleUITests.swift in Sources */,
+				F553F4D224D7B87A009FB74B /* FetchData.swift in Sources */,
+				F553F4CC24D7B87A009FB74B /* AlbumDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,10 +484,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.manasa.NikeCodeTest.NikeCodeTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manasa.NikeCodeTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -457,10 +501,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.manasa.NikeCodeTest.NikeCodeTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manasa.NikeCodeTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

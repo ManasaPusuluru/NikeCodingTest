@@ -2,7 +2,7 @@
 //  ViewExtentionsTest.swift
 //  NikeSampleTests
 //
-//  Created by Srinivas M on 30/07/20.
+//  Created by Manasa Pusuluru on 30/07/20.
 //  Copyright © 2020 Manasa. All rights reserved.
 //
 
@@ -31,7 +31,7 @@ class ViewExtentionsTest: XCTestCase {
         
         XCTAssertEqual(true, iv.image == plaseHolderImage)
         
-        waitForExpectations(timeout: 5, handler: nil)
+        waitForExpectations(timeout: 25, handler: nil)
 
         XCTAssertEqual(true, iv.image != image)
     }

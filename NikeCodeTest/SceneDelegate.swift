@@ -1,9 +1,9 @@
 //
 //  SceneDelegate.swift
-//  NikeCodeTest
+//  NikeSample
 //
-//  Created by Manasa Pusuluru on 8/2/20.
-//  Copyright © 2020 Manasa Pusuluru. All rights reserved.
+//  Created by Manasa Pusuluru on 29/07/20.
+//  Copyright © 2020 Manasa. All rights reserved.
 //
 
 import UIKit
@@ -18,6 +18,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        
+        if let windowScene = scene as? UIWindowScene {
+            let window = UIWindow(windowScene: windowScene)
+            window.rootViewController = UINavigationController(rootViewController: AlbumsTableViewController())
+            self.window = window
+            window.makeKeyAndVisible()
+        }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -50,4 +57,5 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
 }
+
 

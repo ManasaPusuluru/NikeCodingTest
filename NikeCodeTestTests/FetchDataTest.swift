@@ -2,7 +2,7 @@
 //  FetchDataTest.swift
 //  NikeSampleTests
 //
-//  Created by Srinivas M on 30/07/20.
+//  Created by Manasa Pusuluru on 30/07/20.
 //  Copyright © 2020 Manasa. All rights reserved.
 //
 

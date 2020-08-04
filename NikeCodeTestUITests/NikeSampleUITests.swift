@@ -2,7 +2,7 @@
 //  NikeSampleUITests.swift
 //  NikeSampleUITests
 //
-//  Created by Srinivas M on 29/07/20.
+//  Created by Manasa Pusuluru on 29/07/20.
 //  Copyright © 2020 Manasa. All rights reserved.
 //
 
